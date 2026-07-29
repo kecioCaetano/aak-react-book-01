@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <button onClick={() => setShow(!show)}>
-        {show ? "Hide Timer" : "Show Timer"}
+        {show ? "Hide Timer" : "Show Timer!"}
       </button>
       <ShowHideTimer show={show} />
     </>

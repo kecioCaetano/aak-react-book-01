@@ -16,8 +16,9 @@ function App() {
     fetchUser().then((user) => {
       setId(user.id);
       setName(user.name);
+      // console.count("fetching user");
     });
-  });
+  }, []);
 
   return (
     <>
