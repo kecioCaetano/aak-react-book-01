@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 // import App from "./App.tsx";
 // import App from "./chap01/Timer-canceling-actions";
-import App from "./chap05/App";
+import App from "./chap05/monolithic/Myfeature";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
