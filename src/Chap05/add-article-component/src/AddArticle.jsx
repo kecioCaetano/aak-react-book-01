@@ -7,12 +7,12 @@ function AddArticle({
   onClickAdd,
 }) {
   return (
-    <header>
-      <h1>Articles</h1>
+    <section>
+      <h1>{name}</h1>
       <input placeholder="Title" value={title} onChange={onChangeTitle} />
       <input placeholder="Summary" value={summary} onChange={onChangeSummary} />
       <button onClick={onClickAdd}>Add</button>
-    </header>
+    </section>
   );
 }
 
