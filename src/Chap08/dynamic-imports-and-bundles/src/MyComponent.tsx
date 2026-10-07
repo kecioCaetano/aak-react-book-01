@@ -1,3 +1,3 @@
 export default function MyComponent() {
-  return <p>Hello Route!!!</p>;
+  return <p>My Component</p>;
 }
